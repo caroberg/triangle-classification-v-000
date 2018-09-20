@@ -12,7 +12,7 @@ class Triangle
     @equilateral
   end
 
-  def kind(length_one, length_two, length_three)
+  def kind
     if length_one == length_two && length_two == length_three
       @equilateral
     end
