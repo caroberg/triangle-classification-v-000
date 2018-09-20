@@ -1,6 +1,6 @@
 class Triangle
   attr_accessor :length_one, :length_two, :length_three
-  attr_reader :equilateral
+
   @triangle = []
 
   def initialize(length_one, length_two, length_three)
@@ -12,5 +12,5 @@ class Triangle
     @triangle << length_three
   end
 
-  
+
 end
